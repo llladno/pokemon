@@ -1,0 +1,18 @@
+body {
+  background: #131313;
+  color: white;
+}
+
+header {
+  display: flex;
+}
+header h3 {
+  padding: 7px;
+  font-size: 12px;
+}
+
+.MuiContainer-root {
+  width: 980px;
+}
+
+/*# sourceMappingURL=globals.css.map */
