@@ -5,7 +5,17 @@ body{
 
 header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .headerButton{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
     h3{
+        border: 1px solid white;
         padding: 7px;
         font-size: 12px;
     }
@@ -13,4 +23,11 @@ header{
 
 .MuiContainer-root{
     width: 980px;
+
+    button{
+        text-transform: none;
+    }
+    p{
+        color: #A0A0A0;
+    }
 }

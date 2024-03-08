@@ -5,14 +5,28 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerButton {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 header h3 {
+  border: 1px solid white;
   padding: 7px;
   font-size: 12px;
 }
 
 .MuiContainer-root {
   width: 980px;
+}
+.MuiContainer-root button {
+  text-transform: none;
+}
+.MuiContainer-root p {
+  color: #A0A0A0;
 }
 
 /*# sourceMappingURL=globals.css.map */
